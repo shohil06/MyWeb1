@@ -28,8 +28,12 @@ Notes:	 Hand coded for Udemy.com
 .thumbnail{
 	padding: 0px;
 	position: relative;
+	border-top-right-radius: 75px;
+	border-top-left-radius: 75px;
 }
 .thumbnail img{
+	border-top-right-radius: 75px;
+	border-top-left-radius: 75px;
 }
 .thumbnail .price{
 	font-size: 25px;
@@ -91,7 +95,10 @@ body{
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
-
+#AB1{
+	border-top-right-radius: 75px;
+	border-top-left-radius: 75px;
+}
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
@@ -156,3 +163,15 @@ Callout Section
 /*-------------------------------
 More-Features Section
 ------------------------------------*/
+
+
+/*-------------------------------
+Footer
+------------------------------------*/
+footer{
+	border-top: 3px;
+	border-color: black;
+	border-width: thick;
+	border-top-style: solid;
+	background-color: lightgrey;
+}
