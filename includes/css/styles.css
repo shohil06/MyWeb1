@@ -22,6 +22,24 @@ Notes:	 Hand coded for Udemy.com
 #inputMessage{
 	margin-bottom: 20px;
 }
+.thumbnails{
+	margin: 20px 0px;
+}
+.thumbnail{
+	padding: 0px;
+	position: relative;
+}
+.thumbnail img{
+}
+.thumbnail .price{
+	font-size: 25px;
+	top: -8px;
+	right: -6px;
+	position:absolute;
+  transform: rotate(20deg);
+
+}
+
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -80,7 +98,14 @@ body{
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-
+	#AB1 {
+		width: 200px;
+		height: 150px;
+		float: left;
+	}
+	.thumbnail .price{
+		font-size: 14px;
+	}
 }
 
 /* Landscape phone to portrait tablet */
